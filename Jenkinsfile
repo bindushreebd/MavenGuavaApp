@@ -30,7 +30,7 @@ pipeline {
             steps {
                 // Start the JAR application
                 sh 'java -jar target/MavenGuavaApp-1.0-SNAPSHOT.jar' 
-'
+
             }
         }
 
